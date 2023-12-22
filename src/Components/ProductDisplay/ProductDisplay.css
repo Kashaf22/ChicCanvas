@@ -1,0 +1,97 @@
+/* ProductDisplay.css */
+
+/* Overall container for the product display */
+.productDisplay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  /* Left section containing product images */
+  .productDisplay-left {
+    flex: 1;
+  }
+  
+  /* List of thumbnail images */
+  .productdisplay-img-list {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .productdisplay-img-list img {
+    max-width: 80px;
+    height: auto;
+  }
+  
+  /* Main product image */
+  .productDisplay-img img.productDisplay-main-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Right section containing product details */
+  .productDisplay-right {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  /* Product name */
+  .productDisplay-right h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Star rating */
+  .productDisplay-right-star img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  /* Number of reviews */
+  .productDisplay-right-star p {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  /* Price display */
+  .productdisplay-right-price-old {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .productdisplay-right-price-new {
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+  }
+  
+  /* Size selection */
+  .productdisplay-right-size h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .productdisplay-right-sizes div {
+    padding: 18px 24px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  .add-to-cart{
+    background: orange;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  /* Add more styles as needed */

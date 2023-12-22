@@ -1,0 +1,127 @@
+/* General Styles for the Cart Items Container */
+.cart-items {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styles for the Cart Items Header */
+  .cartitems-format-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-weight: bold;
+  }
+  
+  .cartitems-format-main p {
+    margin: 0;
+    padding: 0 5px;
+  }
+  
+  /* Horizontal Line Styling */
+  hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+  }
+  
+  /* Styles for Individual Cart Items */
+  .cartitems-format {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .carticon-product-icon {
+    width: 50px;
+    height: auto;
+  }
+  
+  .cart-items-removeicon {
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  /* Quantity Button Styling */
+  .cartitems-quantity {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Cart Total Section */
+  .cartitems-down {
+    margin-top: 20px;
+  }
+  
+  .cartitems-total h1 {
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  
+  .cartItems-local-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
+  .cartItems-local-items h3 {
+    margin: 0;
+  }
+  
+  /* Checkout Button */
+  .cartitems-down button {
+    width: 262px;
+    height: 58px;
+    background: #ff4141;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 6 00;
+    cursor: pointer;
+  }
+  
+  /* Promo Code Section */
+  .cartItems-promocode {
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  
+  .cartItems-promobox {
+    width: 504px;
+    height: 58px;
+    margin-top: 15px;
+    padding-left: 20px;
+    border: #eaeaea;
+  }
+  
+  .cartItems-promobox input {
+    width: 330px;
+    height: 50px;
+    font-size: 16px;
+    background-color: transparent;
+    outline: black;
+    border: black;
+  }
+  
+  .cartItems-promobox button {
+    width: 170px;
+    height: 58px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  /* Responsive Design (Optional) */
+@media (max-width: 768px) {
+    .cartitems-format-main, .cartitems-format {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
